@@ -24,3 +24,7 @@ $('.pilihan-background-profil').on('click', function () {
     let nomorGambar = this.children[0].innerHTML;
     $('#background_profil').val(nomorGambar);
 })
+
+$('#deleteForm [type="submit"').on('click', function () {
+    $('#deleteForm').trigger('submit')
+})
