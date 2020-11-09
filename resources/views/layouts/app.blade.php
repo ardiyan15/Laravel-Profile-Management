@@ -128,11 +128,13 @@
         <div class="col-md-3 text-center text-md-left">
           <h5>Hubungi Kami</h5>
           <div class="text-nowrap"><i class="fas fa-envelope fa-fw mr-3"></i>
-            andre@ilkoom.com</div>
+            ardhiyan15@gmail.com</div>
           <div class="text-nowrap"><i class="fas fa-phone fa-fw mr-3"></i>
-            (021) 123456</div>
+            081210219995</div>
           <div class="text-nowrap"><i class="fas fa-globe fa-fw mr-3"></i>
-            www.ilkoom.com</div>
+          <a target="_blank" href="//ardiyan15.github.io" class="text-white">
+              ardiyan15.github.io</div>
+            </a>
         </div>
       </div>
 
