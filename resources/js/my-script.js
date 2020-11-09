@@ -25,6 +25,11 @@ $('.pilihan-background-profil').on('click', function () {
     $('#background_profil').val(nomorGambar);
 })
 
+$('.btn-hapus').on('click', function () {
+    let idHapus = $(this).attr('data-id')
+    $("#deleteForm").attr('action', '/users/' + idHapus)
+})
+
 $('#deleteForm [type="submit"').on('click', function () {
     $('#deleteForm').trigger('submit')
 })

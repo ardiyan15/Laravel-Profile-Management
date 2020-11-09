@@ -170,8 +170,8 @@
   <div class="modal-dialog ">
   <!-- Modal content-->
     <form action="" id="deleteForm" method="post">
-    @csrf
-    @method('DELETE')
+      @csrf
+      @method('DELETE')
     <div class="modal-content">
       <div class="modal-header">
         <h4 class="modal-title text-center">Konfirmasi</h4>

@@ -24,4 +24,4 @@ Route::get('/', [App\Http\Controllers\HomeController::class, 'index'])->name('ho
 
 Route::get('/users/{user}/edit', [UserController::class, 'edit'])->middleware('can:update,user');
 Route::patch('/users/{user}', [UserController::class, 'update'])->middleware('can:update,user');
-Route::delete('/users/{user}', [UserController::class, 'destroy'])->middleware('can:update,user');
+Route::delete('/users/{user}', [UserController::class, 'destroy'])->middleware('can:delete,user');
